@@ -10,8 +10,8 @@
 *   {Number} - The number of students in the given location.
 */
 export default function getStudentsByLocation(students, city) {
-    if (students instanceof Array) {
-        return students.filter(student => student.location === city);
-    }
-    return [];
+  if (students instanceof Array) {
+    return students.filter((student) => student.location === city);
+  }
+  return [];
 }
