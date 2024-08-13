@@ -1,7 +1,6 @@
-
 /**
- * Retrieves the sum of ids of a list of students.
- * @param {{
+* Retrieves the sum of ids of a list of students.
+* @param {{
 *   id: Number,
 *   firstName: String,
 *   location: String
